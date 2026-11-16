@@ -86,7 +86,7 @@ Validation RMSE (units per product, lower is better), hyperparameters tuned with
 - **Non-linear kernels and GAMs were worse**, probably because the relationship is close to linear and the GAM used fewer features.
 - **Recommendation:** XGBoost for accuracy; linear regression or linear SVR when explainability matters.
 - Business signals from the linear models: previous-year sales drive next-year sales, volatile products sell less, and Team Sports and Outdoors categories had positive effects.
-- 
+  
 ## Limitations
 
 - Models compared on a single hold-out validation set, so differences of a few tenths of a unit are within noise.
